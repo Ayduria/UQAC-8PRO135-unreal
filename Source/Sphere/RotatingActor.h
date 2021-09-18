@@ -23,4 +23,13 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	UPROPERTY(EditAnywhere, Category = "Movement ")
+		float PitchValue;
+
+	UPROPERTY(EditAnywhere, Category = "Yaw ")
+		float YawValue;
+
+	UPROPERTY(EditAnywhere, Category = "Roll")
+		float RollValue;
+
 };
